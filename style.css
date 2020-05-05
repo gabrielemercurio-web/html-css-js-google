@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100vw;
+    padding-top: 20px;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ---------------------------  NAV - LEFT */
+
+nav li {
+    display: inline-block;
+}
+
+nav li:not(:last-child) {
+    margin-right: 20px;
+}
+
+nav li a {
+    font-size: 0.75rem;
+    color: #444;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------------------------  NAV - RIGHT */
+
+#right {
+    display: flex;
+    align-items: center;
+}
+
+#right .user img {
+    height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END */
