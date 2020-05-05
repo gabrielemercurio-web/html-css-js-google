@@ -10,21 +10,20 @@ body {
 
 header {
     width: 100vw;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .container {
-    width: 95%;
+    width: 96%;
     margin: auto;
 }
 
+
+/* -------------------------------------  N A V */
 .nav {
     display: flex;
     justify-content: space-between;
 }
-
-
-/* ---------------------------  NAV - LEFT */
 
 nav li {
     display: inline-block;
@@ -45,10 +44,7 @@ nav li a:hover {
     text-decoration: underline;
 }
 
-
-/* ---------------------------  NAV - RIGHT */
-
-#right {
+#right, #left {
     display: flex;
     align-items: center;
 }
@@ -57,7 +53,102 @@ nav li a:hover {
     height: 32px;
 }
 
+#right .material-icons {
+    color: #777;
+}
 
+
+/* ------------------------------------  M A I N */
+main {
+    width: 100vw;
+    display: inline-block;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.logo img {
+    height: 120px;
+    margin-bottom: 15px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 582px;
+    border: 1px solid #8885;
+    border-radius: 30px;
+    padding: 8px 20px;
+    margin: auto;
+}
+
+.search:hover {
+    box-shadow: 0px 2px 7px 1px #8884;
+}
+
+.search .material-icons {
+    width: 5%;
+    color: #aaa;
+}
+
+.search input {
+    border: none;
+    font-size: 18px;
+    color: #333;
+    width: 85%;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search a {
+    width: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.search a img {
+    height: 26px;
+}
+
+.buttons {
+    width: 312px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.buttons button {
+    font-size: 14px;
+    color: #555;
+    background-color: #eee;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    box-shadow: 0px 2px 4px #8888;
+}
+
+main p {
+    font-size: 15px;
+    color: #444;
+    margin-top: 30px;
+}
+
+main p a {
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+main p a:hover {
+    text-decoration: underline;
+}
 
 
 
