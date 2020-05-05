@@ -85,10 +85,11 @@ li:not(:last-child) {
     overflow: hidden;
     padding: 20px;
     display: grid;
-    grid-template-columns: auto auto auto;;
+    grid-template-columns: auto auto auto;
 }
 
 .dropdown-visible > a {
+    width: 100px;
     height: 100px;
     display: flex;
     flex-direction: column;
