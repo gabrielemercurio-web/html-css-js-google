@@ -2,12 +2,18 @@
 <html lang="it" dir="ltr">
 
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/png" href="https://www.konfest.com/wp-content/uploads/2019/05/Konfest-PNG-JPG-Image-Pic-Photo-Free-Download-Royalty-Unlimited-clip-art-sticker-icon-google-website-search-engine-information-company-logo-17.png"/>
+
         <script src="https://kit.fontawesome.com/03e5ee274f.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <link rel="stylesheet" href="style.css">
         <title>Esercitazione 1 JavaScript</title>
+
     </head>
 
     <body>
@@ -16,20 +22,73 @@
 
             <div class="nav container">
 
-                <nav id="left">
+                <nav id="nav-left">
                     <ul>
                         <li> <a href="#">Chi siamo</a> </li>
                         <li> <a href="#">Google Store</a> </li>
                     </ul>
                 </nav>
 
-                <nav id="right">
+                <nav id="nav-right">
                     <li> <a href="#">Gmail</a> </li>
                     <li> <a href="#">Immagini</a> </li>
                     <li>
                         <a href="#">
                             <span class="material-icons"> apps </span>
                         </a>
+
+                        <div class="dropdown-hidden">
+
+                            <a class="app-1" href="#">
+                                <img src="https://lh3.googleusercontent.com/-PfKIkhHyHK8/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuckY-41Z8rI8dHJx3pp_UV8xXn-GJQ.CMID/s64-c/photo.jpg" alt="Account">
+                                <h1>Account</h1>
+                            </a>
+                            <a class="app-2" href="#">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" alt="Ricerca">
+                                <h1>Ricerca</h1>
+                            </a>
+                            <a class="app-3" href="#">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Google_Maps_icon_%282020%29.svg/1200px-Google_Maps_icon_%282020%29.svg.png" alt="Maps">
+                                <h1>Maps</h1>
+                            </a>
+                            <a class="app-4" href="#">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png" alt="YouTube">
+                                <h1>YouTube</h1>
+                            </a>
+                            <a class="app-5" href="#">
+                                <img src="https://cdn.iconscout.com/icon/free/png-512/google-play-11-722703.png" alt="Play">
+                                <h1>Play</h1>
+                            </a>
+                            <a class="app-6" href="#">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Google_News_icon.svg/1200px-Google_News_icon.svg.png" alt="News">
+                                <h1>News</h1>
+                            </a>
+                            <a class="app-7" href="#">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/634px-New_Logo_Gmail.svg.png" alt="Gmail">
+                                <h1>Gmail</h1>
+                            </a>
+                            <a class="app-8" href="#">
+                                <img src="https://image.flaticon.com/icons/png/512/720/720236.png" alt="Contatti">
+                                <h1>Contatti</h1>
+                            </a>
+                            <a class="app-9" href="#">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Logo_of_Google_Drive.svg/1200px-Logo_of_Google_Drive.svg.png" alt="Drive">
+                                <h1>Drive</h1>
+                            </a>
+                            <a class="app-10" href="#">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Calendar_icon.svg/1200px-Google_Calendar_icon.svg.png" alt="Calendar">
+                                <h1>Calendar</h1>
+                            </a>
+                            <a class="app-11" href="#">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Google_Translate_logo.svg/1024px-Google_Translate_logo.svg.png" alt="Traductor">
+                                <h1>Traduttore</h1>
+                            </a>
+                            <a class="app-12" href="#">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Google_Photos_icon.svg/1061px-Google_Photos_icon.svg.png" alt="Photo">
+                                <h1>Foto</h1>
+                            </a>
+
+                        </div>
                     </li>
                     <li>
                         <a class="user" href="#">
@@ -43,26 +102,62 @@
         </header>
 
         <main>
-            <div class="logo">
-                <img src="https://www.kimap.it/wp-content/uploads/2019/04/google_PNG19644.png" alt="Logo-google">
+
+            <div class="container">
+                <div class="logo">
+                    <img src="https://www.kimap.it/wp-content/uploads/2019/04/google_PNG19644.png" alt="Logo-google">
+                </div>
+
+                <div class="search">
+                    <span class="material-icons">search</span>
+                    <input type="text" name="" value="">
+                    <a href=""> <img src="https://www.androidworld.it/wp-content/uploads/2015/09/microfono-google-1280x1280.png" alt="ricerca-vocale-google"> </a>
+                </div>
+
+                <div class="buttons">
+                    <button type="button">Cerca con Google</button>
+                    <button type="button">Mi sento fortunato</button>
+                </div>
+
+                <p>Google offerto in: <a href="#">English</a></p>
             </div>
 
-            <div class="search">
-                <span class="material-icons">search</span>
-                <input type="text" name="" value="">
-                <a href=""> <img src="https://www.androidworld.it/wp-content/uploads/2015/09/microfono-google-1280x1280.png" alt="ricerca-vocale-google"> </a>
-            </div>
-
-            <div class="buttons">
-                <button type="button">Cerca con Google</button>
-                <button type="button">Mi sento fortunato</button>
-            </div>
-
-            <p>Google offerto in: <a href="#">English</a></p>
         </main>
 
         <footer>
-            
+            <div id="footer-top">
+
+                <div class="container">
+                    <div class="footer-top">
+                        <a href="#">Italia</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="footer-bottom">
+
+                <div class="container">
+                    <div class="footer-bottom">
+
+                        <div class="footer-left">
+                            <ul>
+                                <li> <a href="#">Pubblicità</a> </li>
+                                <li> <a href="#">Soluzioni aziendali</a> </li>
+                                <li> <a href="#">Come funziona la Ricerca</a> </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-right">
+                            <li> <a href="#">Privacy</a> </li>
+                            <li> <a href="#">Termini</a> </li>
+                            <li> <a href="#">Impostazioni</a> </li>
+                            <li> <a href="#">Utilizza Google.com</a> </li>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
